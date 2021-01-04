@@ -1,0 +1,9 @@
+/.idea/hacking.iml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
+config/
+targets/
+db/
+logs/
+bin/*

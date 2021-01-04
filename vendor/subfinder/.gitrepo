@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:projectdiscovery/subfinder.git
+	branch = master
+	commit = 2c6fe5f2487f94b0acf0a5faeb7765142bd159b6
+	parent = 79590a5758af59a527fe1a9daf9b4a6608c0f2b0
+	method = merge
+	cmdver = 0.4.3

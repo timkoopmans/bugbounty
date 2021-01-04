@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:projectdiscovery/httpx.git
+	branch = master
+	commit = 0d91ab1e4a1c261948c5e074c41bbd87d212bd5b
+	parent = e667dceb2b048daa87d24a73147833bf65a29d71
+	method = merge
+	cmdver = 0.4.3

@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:anshumanpattnaik/http-request-smuggling.git
+	branch = main
+	commit = 8c3f222d239dd58879951cbfd61e214f25b0bacf
+	parent = 4a627dafe87f85ea9aae79b3f3c79af7da674032
+	method = merge
+	cmdver = 0.4.3

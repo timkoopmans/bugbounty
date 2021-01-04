@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:projectdiscovery/proxify.git
+	branch = master
+	commit = 529f523e3517d3e1044ff703592f4d3390d97547
+	parent = 5f4b67adf1b61e9f000d63b4bfb738a9f12ee6e7
+	method = merge
+	cmdver = 0.4.3

@@ -1,0 +1,9 @@
+POST / HTTP/1.1
+Host: www.hotdoc.com.au
+Content-Length: 5
+Transfer_Encoding:chunked
+
+1
+Z
+Q
+
