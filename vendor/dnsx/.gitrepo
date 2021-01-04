@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:projectdiscovery/dnsx.git
+	branch = master
+	commit = 9860afc40cb8b05e8cc9c1c6f336272633d3eac4
+	parent = 6013ecfc90c08a75b146828ba121b02397a4c106
+	method = merge
+	cmdver = 0.4.3
