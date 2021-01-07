@@ -1,12 +1,18 @@
 version: "3"
 
 services:
+  server:
+    build: gunicorn
+    networks:
+      - server
+    ports:
+      - "8000:8000"
   haproxy:
     build: haproxy
     ports:
       - "8001:8001"
-    links:
-      - "server"
+    networks:
+      - server
     environment:
       - SERVER_HOSTNAME=server
       - SERVER_PORT=8000
@@ -14,8 +20,8 @@ services:
     build: mitmproxy
     ports:
       - "8002:8002"
-    links:
-      - "server"
+    networks:
+      - server
     environment:
       - SERVER_HOSTNAME=server
       - SERVER_PORT=8000
@@ -23,7 +29,13 @@ services:
     build: squidproxy
     ports:
       - "8003:8003"
-    links:
-      - "server"
+    networks:
+      - server
+  nginxproxy:
+    build: nginxproxy
+    ports:
+      - "8004:8004"
+    networks:
+      - server
+networks:
   server:
-    build: gunicorn

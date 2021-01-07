@@ -1,0 +1,39 @@
+standard,Transfer-Encoding: chunked
+nospace,Transfer-Encoding:chunked
+lineprefix-space, Transfer-Encoding: chunked
+lineprefix-tab,\tTransfer-Encoding: chunked
+line-appendix-space,Transfer-Encoding: chunked
+line-appendix-tab,Transfer-Encoding: chunked\t
+line-appendix-cr,Transfer-Encoding: chunked\r
+line-appendix-nl,Transfer-Encoding: chunked\n
+line-appendix-vtab,Transfer-Encoding: chunked\x0b
+colon-pre-null,Transfer-Encoding\x00: chunked
+colon-post-null,Transfer-Encoding:\x00chunked
+colon-post-tab,Transfer-Encoding:\tchunked
+colon-wrap-tab,Transfer-Encoding\t:\tchunked
+colon-post-vtab,Transfer-Encoding:\x0bchunked
+colon-wrap-vtab,Transfer-Encoding\x0b:\x0bchunked
+colon-pre-cr,Transfer-Encoding\r: chunked
+colon-post-cr,Transfer-Encoding: \rchunked
+colon-wrapped-space,Transfer-Encoding : chunked
+colon-pre-nl,Transfer-Encoding\n: chunked
+colon-post-nl,Transfer-Encoding:\nchunked
+colon-post-ff,Transfer-Encoding:\xffchunked
+headername-junk,Transfer-Encoding abcdef: chunked
+single-qoute,Transfer-Encoding: 'chunked'
+double-qoute,Transfer-Encoding: \"chunked\"
+uppercase,TRANSFER-ENCODING: chunked
+lowercase,transfer-encoding: chunked
+mixedcase,tRANsfEr-ENCodInG: chunked
+chunked-uppercase,Transfer-Encoding: CHUNKED
+cutoff,Transfer-Encoding: chunk
+lazy,Transfer-Encoding: chunkedz
+newline,X: y\nTransfer-Encoding: chunked
+double-newline,Foo: bar\n\nTransfer-Encoding: chunked
+carriagereturn,X: y\rTransfer-Encoding: chunked
+double-carriagereturn,Foo: bar\r\rTransfer-Encoding: chunked
+acute,Transfer-Encoding: chunkéd
+grave,Trànsfer-Encoding: chunked
+connection-te,Connection: Transfer-Encoding\r\nTransfer-Encoding: chunked
+connection-cl,Connection: Content-Length\r\nTransfer-Encoding: chunked
+content-encoding,Content-Encoding: chunked
