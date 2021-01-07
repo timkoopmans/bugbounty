@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:danielthatcher/smuggles.git
+	branch = master
+	commit = fc9aa26ac6237178321d499441b09179959411a3
+	parent = 14ba4b9f80798d2ea65d892bc93af59beb8bd93b
+	method = merge
+	cmdver = 0.4.3
