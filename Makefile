@@ -23,7 +23,7 @@ dnsx: #: build ProjectDiscover dnsx
 	@cd vendor/dnsx/cmd/dnsx; go build . ;mv dnsx $(_ROOT_DIR)/bin/;$(_ROOT_DIR)/bin/dnsx -h
 
 smuggles: #: build smuggles
-	@git git@github.com:danielthatcher/smuggles.git vendor/smuggles
+	@git subrepo clone git@github.com:danielthatcher/smuggles.git vendor/smuggles
 	@cd vendor/smuggles; go build . ;mv smuggles $(_ROOT_DIR)/bin/;$(_ROOT_DIR)/bin/smuggles -h
 
 http-request-smuggling:
