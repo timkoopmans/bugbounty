@@ -7,3 +7,4 @@ targets/
 db/
 logs/
 bin/*
+__pycache__
