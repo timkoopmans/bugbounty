@@ -22,6 +22,10 @@ dnsx: #: build ProjectDiscover dnsx
 	@git subrepo clone git@github.com:projectdiscovery/dnsx.git vendor/dnsx
 	@cd vendor/dnsx/cmd/dnsx; go build . ;mv dnsx $(_ROOT_DIR)/bin/;$(_ROOT_DIR)/bin/dnsx -h
 
+smuggles: #: build smuggles
+	@git git@github.com:danielthatcher/smuggles.git vendor/smuggles
+	@cd vendor/smuggles; go build . ;mv smuggles $(_ROOT_DIR)/bin/;$(_ROOT_DIR)/bin/smuggles -h
+
 http-request-smuggling:
 	@git subrepo clone git@github.com:anshumanpattnaik/http-request-smuggling.git vendor/http-request-smuggling
 	@cd vendor/http-request-smuggling; pip3 install -r requirements.txt
