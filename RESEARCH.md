@@ -10,7 +10,7 @@ The script aims to smuggle a request to /flag on the proxy that effectively bypa
 ## Run the lab
 
     cd labs/request-smuggling
-    docker-comppose up
+    docker-compose up
 
 ## Test the target proxies by port
 
